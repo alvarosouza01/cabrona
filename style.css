@@ -14,27 +14,28 @@ body{
     margin: auto;
 }
 .logo, .img{
-    width: 202px;
-height: 132px;
-top: 82px;
-left: 90px;
+    width: 50%;
+    margin-top: 5%;
+
+
+
 display: inline-block;
-position: absolute;
+
 
 }
 .social, .img{
-    width: 46px;
+    width: 5%;
     height: 46px;
-    top: 123px;
-    left: 715px;
     display: inline-block;
-    position: absolute;
+    margin-left: 2%;
 
 }
 .button{
-    width: 40%;
+    width: 35%;
     display: inline-block;
     margin-left: auto;
+    bottom: 20px;
+    position: relative;
 }
 .btn_1{
     background-color: #94C5C6;
@@ -45,13 +46,12 @@ position: absolute;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: center;
-    width: 160px;
+    width: 40%;
     height: 47px;
-    top: 118px;
-    left: 842px;
     border-radius: 8px;
     box-shadow: 8px 8px 0px 0px #000000;
-    position: absolute;
+    display: inline-block;
+    margin-left: 5%;
 
 }
 .btn_2{
@@ -63,21 +63,20 @@ position: absolute;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: center;
-    width: 160px;
+    width: 40%;
     height: 47px;
-    top: 118px;
-    left: 1056px;
     border-radius: 8px;
     box-shadow: 8px 8px 0px 0px #000000;
-    position: absolute;
+    display: inline-block;
+    margin-left: 5%;
+    align-items: center;
+    
     
 }
 .content{
-    width: 80px;
-    height: 12px;
-    top: 142px;
-    left: 630px;
-    position: absolute;
+    width: 5%;
+    
+    
     
     font-family: Andale Mono;
     font-size: 14px;
@@ -86,25 +85,23 @@ position: absolute;
     letter-spacing: -0.02em;
     text-align: center;
     display: inline-block;
+    bottom: 20px;
+    position: relative;
 
 }
 .image-content{
-    width: 601px;
-height: 601px;
-top: 248px;
-left: 91px;
-position: absolute;
+    width: 50%;
+    /* height: 601px; */
+    /* top: 248px; */
+    /* left: 91px; */
+    /* position: absolute; */
+    padding-left: 5%;
+    padding-top: 5%;
 
 }
 .content-header{
-    
-    
-   
-    width: 496px;
-    height: 300px;
-    top: 258px;
-    left: 714px;
-    position: absolute;
+    width: 40%;
+    display: inline-block;
 
 }
 .header-para{
@@ -149,27 +146,34 @@ position: absolute;
 }
 .content-data{
     width: 95%;
-height: 268px;
-top: 820px;
-margin: auto;
-border-radius: 30px;
-border: 4px solid #1E1E1E;
-background-color: #94C5C6;
-position: relative;
+    height: 268px;
+    /* top: 820px; */
+    margin: auto;
+    border-radius: 30px;
+    border: 4px solid #1E1E1E;
+    background-color: #94C5C6;
+    /* position: relative; */
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
+    top: -21px;
+    position: relative;
 
 }
 .d1{
-    width: 478px;
-    height: 248px;
-    top: 0px;
-    left: 59px;
+    width: 40%;
+    height: fit-content;
+    padding-bottom: 5%;
+   
+    
     font-family: Mono45 Headline;
-    font-size: 44px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 62px;
     letter-spacing: -0.02em;
     text-align: left;
-    position: relative;
+    display: inline-block;
+    padding: 2%;
+  
 
     
 }
@@ -181,49 +185,50 @@ position: relative;
     letter-spacing: 0em;
     text-align: left;
     color: #1E1E1E;
-    width: 608px;
+    width: 50%;
     height: 260px;
-    top: -276px;
-    left: 547px;
-    position: relative;
+    display: inline-block;
+   
+   
 
 
 }
 .testmonial{
     font-family: Mono45 Headline;
-font-size: 50px;
-font-weight: 700;
-line-height: 80px;
-letter-spacing: -0.02em;
-text-align: center;
-color:#F1E116;
-width: 100%;
-height: 81px;
-top: -344px;
-position: relative;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 4px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #F1E116;
+    width: 100%;
+    /* height: 81px; */
+    bottom: 37px;
+    position: relative;
 
 }
 .address{
     
-    color:#000000;
+    color: #000000;
     width: 100%;
     height: 81px;
-    top: -383px;
+    bottom: 9px;
     position: relative;
     font-family: Mono45 Headline;
-font-size: 45px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: -0.02em;
-text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: -0.02em;
+    text-align: center;
 
 }
-.footer-logo{
+.footer-logo {
     width: 51.94px;
     height: 61.08px;
-    top: -438px;
-   
-    left: 550px;
-    position: relative;
+    position: absolute;
+    top: 508px;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
+
