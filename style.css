@@ -1,6 +1,5 @@
 body{
     background-color: #E94B41;
-    ;
 }
 
 .container{
@@ -14,7 +13,7 @@ body{
     margin: auto;
 }
 .logo, .img{
-    width: 50%;
+    width: 45%;
     margin-top: 5%;
 
 
@@ -74,7 +73,7 @@ display: inline-block;
     
 }
 .content{
-    width: 5%;
+    
     
     
     
@@ -86,7 +85,7 @@ display: inline-block;
     text-align: center;
     display: inline-block;
     bottom: 20px;
-    position: relative;
+    
 
 }
 .image-content{
@@ -157,27 +156,31 @@ display: inline-block;
     /* padding-top: 0px; */
     top: -21px;
     position: relative;
+    display: flex;
 
 }
-.d1{
-    width: 40%;
-    height: fit-content;
-    padding-bottom: 5%;
-   
+.parent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+.d1 {
+    width: 45%;
+    /* height: fit-content; */
+    padding-bottom: 3%;
     font-family: Mono45 Headline;
     font-size: 30px;
     font-weight: 700;
-    line-height: 62px;
+    line-height: 47px;
     letter-spacing: -0.02em;
     text-align: left;
-    display: inline-block;
-    padding: 2%;
-  
-
-    
+    padding-left: 2%;
+    padding-top: 3%;
 }
-.d2{
+
+.d2 {
     font-family: Andale Mono;
     font-size: 20px;
     font-weight: 400;
@@ -186,13 +189,8 @@ display: inline-block;
     text-align: left;
     color: #1E1E1E;
     width: 50%;
-    height: 260px;
-    display: inline-block;
-   
-   
-
-
 }
+
 .testmonial{
     font-family: Mono45 Headline;
     font-size: 53px;
@@ -226,9 +224,214 @@ display: inline-block;
     width: 51.94px;
     height: 61.08px;
     position: absolute;
-    top: 508px;
+    /* top: 508px; */
     left: 50%;
     transform: translateX(-50%);
+    margin-top: -5%;
 
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #E94B41;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+          
+    }
+    .header{
+        width: 100%;
+        margin: auto;
+    }
+    .logo, .img{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-left: 5%;
+    
+    }
+    .social, .img{
+        display: none;
+    
+    }
+    .content{
+       display: none;
+    
+    }
+    .button{
+        width: 100%;
+        margin: auto;
+        padding-top: 10%;
+        padding-left: 3%;
+    
+    }
+    .btn_1{
+        background-color: #94C5C6;
+        border: 4px solid #000000;
+        font-family: Mono45 Headline;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 40%;
+        height: 47px;
+        border-radius: 8px;
+        box-shadow: 8px 8px 0px 0px #000000;
+        display: inline-block;
+        margin-left: 2%;
+    
+    }
+    .btn_2{
+        background-color: #F1E116;
+        border: 4px solid #000000;
+        font-family: Mono45 Headline;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 40%;
+        height: 47px;
+        border-radius: 8px;
+        box-shadow: 8px 8px 0px 0px #000000;
+        display: inline-block;
+        margin-left: 10%;
+        align-items: center;
+        
+        
+    }
+    .image-content{
+       display: none;
+    
+    }
+    .body-content{
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+    .content-header {
+        position: relative;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 10%;
+        overflow: hidden;
+    }
+    
+    .content-header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url("./assets/Firefly\ Old\ lady\ eating\ burger\ 80\ style\ fashion\ 23509\ 1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.2; /* Adjust the opacity as needed */
+    }
+    
+    
+    .header-para {
+        font-family: Mono45 Headline;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .content-data {
+        width: 95%;
+        height: auto;
+        max-height: 100vh;
+        margin: auto;
+        border-radius: 30px;
+        border: 4px solid #1E1E1E;
+        background-color: #94C5C6;
+        padding: 2%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .d1 {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 1%;
+        font-family: Mono45 Headline;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    
+    .d2 {
+        font-family: Andale Mono;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1E1E1E;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .footer{
+        display: block;
+    }
+    .testmonial{
+        font-family: Mono45 Headline;
+        font-size: 53px;
+        font-weight: 700;
+        
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #F1E116;
+        width: 100%;
+        /* height: 81px; */
+        line-height: normal;
+       
+    
+    }
+    .address{
+        
+        color: #000000;
+        width: 100%;
+        
+        
+        
+        font-family: Mono45 Headline;
+        font-size: 45px;
+        font-weight: 700;
+        
+        letter-spacing: -0.02em;
+        text-align: center;
+        line-height: normal;
+    
+    }
+    .footer-logo {
+        width: 51.94px;
+        height: 61.08px;
+        /* position: absolute; */
+        /* top: 508px; */
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+        /* margin-top: -5%; */
+        display: block;
+        margin-top: 10%;
+        padding-left: 10%;
+    
+    }
+    
+    
+    
+
+  }
