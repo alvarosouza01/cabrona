@@ -1,10 +1,12 @@
 body{
     background-color: #E94B41;
+    width: 100%;
 }
 
 .container{
-    width: 100%;
-    height: 80vh;
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
       
 }
 
@@ -21,6 +23,10 @@ body{
 display: inline-block;
 
 
+}
+a{
+    text-decoration: none;
+    color: #000000;
 }
 .social, .img{
     width: 5%;
@@ -89,8 +95,9 @@ display: inline-block;
 
 }
 .image-content{
-    width: 50%;
-    /* height: 601px; */
+    width: 601px;
+
+    height: 601px;
     /* top: 248px; */
     /* left: 91px; */
     /* position: absolute; */
@@ -104,22 +111,30 @@ display: inline-block;
 
 }
 .header-para{
+    
+    width: 496px;
+    
+    
+}
+.header-para h2{
     font-family: Mono45 Headline;
-    font-size: 66px;
+    font-size: 60px;
     font-weight: 900;
-    line-height: 79px;
+    line-height: 80px;
     letter-spacing: 0em;
     text-align: left;
 }
 .para-txt{
     font-family: Andale Mono;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
-    top: -50px;
-    position: relative;
+    width: 100%;
+    height: 133px;
+    margin-bottom: 30%;
+
 }
 .btn_txt{
     width: 170px;
@@ -144,8 +159,8 @@ display: inline-block;
 
 }
 .content-data{
-    width: 95%;
-    height: 268px;
+    width: 90%;
+    height: 369px;
     /* top: 820px; */
     margin: auto;
     border-radius: 30px;
@@ -167,28 +182,36 @@ display: inline-block;
 }
 
 .d1 {
-    width: 45%;
-    /* height: fit-content; */
-    padding-bottom: 3%;
+    
+    width: 50%;
+    padding-left: 2%;
+   
+        
+}
+.d1 h2{
     font-family: Mono45 Headline;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 47px;
+    line-height: 70px;
     letter-spacing: -0.02em;
     text-align: left;
-    padding-left: 2%;
-    padding-top: 3%;
 }
 
 .d2 {
-    font-family: Andale Mono;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1E1E1E;
     width: 50%;
+padding-left: 5%;
+padding-right: 2%;
+
+
+}
+.d2 p{
+    font-family: Andale Mono;
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 
 .testmonial{
@@ -224,12 +247,10 @@ display: inline-block;
     width: 51.94px;
     height: 61.08px;
     position: absolute;
-    /* top: 508px; */
     left: 50%;
-    transform: translateX(-50%);
-    margin-top: -5%;
-
+    transform: translate(-50%, -50%);
 }
+
 
 @media only screen and (max-width: 600px) {
     body {
@@ -333,20 +354,26 @@ display: inline-block;
         opacity: 0.2; /* Adjust the opacity as needed */
     }
     
+    .header-para{
     
-    .header-para {
-        font-family: Mono45 Headline;
-        font-size: 50px;
-        font-weight: 900;
-        line-height: 60px;
-        letter-spacing: 0em;
-        text-align: left;
+        width: 100%;
+        
         
     }
+    .header-para h2{
+        font-family: Mono45 Headline;
+        font-size: 34px;
+        font-weight: 900;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px;
+    }
+    
     .content-data {
         width: 95%;
         height: auto;
-        max-height: 100vh;
+        
         margin: auto;
         border-radius: 30px;
         border: 4px solid #1E1E1E;
@@ -360,29 +387,40 @@ display: inline-block;
     }
     
     .d1 {
-        width: 100%;
-        margin: 0;
-        padding-bottom: 1%;
+    
+        width: 90%;
+        padding-left: 2%;
+       
+            
+    }
+    .d1 h2{
         font-family: Mono45 Headline;
-        font-size: 30px;
+        font-size: 60px;
         font-weight: 700;
-        line-height: 47px;
+        line-height: 70px;
         letter-spacing: -0.02em;
         text-align: left;
-        box-sizing: border-box;
+        margin: 0;
+
     }
     
     .d2 {
+        width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+    }
+    .d2 p{
         font-family: Andale Mono;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 30px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #1E1E1E;
-        width: 100%;
-        box-sizing: border-box;
-        margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    
+    margin: 0;
+    text-align: justify;
+    
     }
     .footer{
         display: block;
@@ -430,7 +468,38 @@ display: inline-block;
         padding-left: 10%;
     
     }
+    .para-txt{
+        font-family: Andale Mono;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+        /* height: 133px; */
+        margin-bottom: 0;
     
+    }
+    .btn_txt{
+        width: 170px;
+        height: 50px;
+        border-radius: 8px;
+        border: 4px;
+        background-color: #F1E116;
+        border: 4px solid #000000;
+        box-shadow: 8px 8px 0px 0px #000000;
+        text-align: center;
+        font-family: Mono45 Headline;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 3px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 7%;
+       
+    
+    
+    }
     
     
 
