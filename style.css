@@ -256,6 +256,7 @@ text-align: left;
 @media only screen and (max-width: 600px) {
     body {
         background-color: #E94B41;
+        width: 100%;
     }
     .container{
         width: 100%;
