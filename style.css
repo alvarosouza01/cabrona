@@ -345,7 +345,10 @@ text-align: left;
         margin-right: 10%;
         overflow: hidden;
     }
-    
+    .btn_txt{
+        z-index: 1;
+        position: relative;
+    }
     .content-header::after {
         content: "";
         position: absolute;
